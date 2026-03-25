@@ -1,0 +1,29 @@
+{
+  "name": "cartezi_trade-backend-node",
+  "version": "1.0.0",
+  "description": "Node.js backend for cartezi_trade crypto trading platform",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@types/nodemailer": "^7.0.11",
+    "@vonage/server-sdk": "^3.26.4",
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mjml": "^4.18.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^8.0.3",
+    "pg": "^8.20.0",
+    "resend": "^6.9.4",
+    "stripe": "^20.4.1"
+  }
+}
